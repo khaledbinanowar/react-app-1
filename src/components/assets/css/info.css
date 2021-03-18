@@ -1,0 +1,22 @@
+.info{
+    background-color: #000000;
+    padding-top: 15px;
+    position: relative;
+}
+.info .info-item .icon{
+    color: #c49b63;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.info .info-item .text h3{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+.info .info-item .text p{
+    color: #808080;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 300;
+}

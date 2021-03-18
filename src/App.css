@@ -1,0 +1,88 @@
+body{
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  background: url(./components/assets/images/bg_4.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1150px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.we-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.we-col-1 {
+  flex-basis: 8%;
+  width: 8%;
+}
+.we-col-2 {
+  flex-basis: 16.33%;
+  width: 16.33%;
+}
+.we-col-3 {
+  flex-basis: 24.66%;
+  width: 24.66%;
+}
+.we-col-4 {
+  flex-basis: 33%;
+  width: 33%;
+}
+.we-col-5 {
+  flex-basis: 41.33%;
+  width: 41.33%;
+}
+.we-col-6 {
+  flex-basis: 49.2%;
+  width: 49.2%;
+}
+.we-col-7 {
+  flex-basis: 58%;
+  width: 58%;
+}
+.we-col-8 {
+  flex-basis: 66.3%;
+  width: 66.3%;
+}
+.we-col-9 {
+  flex-basis: 74.2%;
+  width: 74.2%;
+}
+.we-col-10 {
+  flex-basis: 83%;
+  width: 83%;
+}
+.we-col-11 {
+  flex-basis: 91%;
+  width: 91%;
+}
+.we-col-12 {
+  flex-basis: 100%;
+  width: 100%;
+}
+.sec-pad {
+  padding: 80px 0;
+}
+.we-text-center {
+  text-align: center;
+}
+.we-text-right {
+  text-align: right;
+}
+.we-text-left {
+  text-align: left;
+}
+.btn, a {
+  padding: .7em 1.5em;
+  border-radius: .3em;
+  text-decoration: none;
+  margin-top: .5em;
+  display: inline-block;
+}

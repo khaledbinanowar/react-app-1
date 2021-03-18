@@ -1,0 +1,41 @@
+.about .about-left{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+.about .about-right{
+    padding: 8% 0;
+    width: 50%;
+}
+.overlap{
+    width: 650px;
+    margin-left: -150px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.about-heading .subheading {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c49b63;
+    line-height: 1;
+    margin-bottom: -21px;
+    z-index: 1;
+}
+.about-heading h2 {
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.5rem !important;
+}
+.about-content p{
+    color: #808080;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 300;
+}

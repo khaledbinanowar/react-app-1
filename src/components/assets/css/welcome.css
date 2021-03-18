@@ -1,0 +1,85 @@
+.welcome {
+    height: 100vh;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+ .welcome:after {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 100%;
+     left: 0;
+     bottom: 0;
+     background-color: #000000;
+     opacity: .6;
+ }
+ .welcome-cover {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     z-index: 2;
+ }
+ .welcome-cover .welcome-inner{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+ }
+ .welcome-cover .welcome-inner h2{
+    color: #c49b63;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+ }
+ .welcome-cover .welcome-inner h1{
+    color: #ffffff;
+    font-size: 2.7rem;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.welcome-cover .welcome-inner p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+}
+.welcome-cover .welcome-inner .btn1{
+    margin: 2px;
+    padding: 1rem 1.5rem;
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    color: #000000;
+    background-color: #c49b63;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: .5s;
+
+}
+.welcome-cover .welcome-inner .btn1:hover{
+    color: #c49b63;
+    background-color: transparent;
+    border-color: #c49b63;
+}
+.welcome-cover .welcome-inner .btn2{
+    margin: 2px;
+    padding: 1rem 1.5rem;
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    transition: .5s;
+
+}
+.welcome-cover .welcome-inner .btn2:hover{
+    color: #000000;
+    background-color: #c49b63;
+    border-color: #c49b63;
+}
