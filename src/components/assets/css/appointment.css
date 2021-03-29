@@ -28,6 +28,9 @@
 .appointment-form ::placeholder{
     color: #ffffff;
 }
+.appointment-form input:focus{
+    outline: -webkit-focus-ring-color auto transparent !important;
+}
 .appointment-btn{
     width: 100%;
     height: 100%;
@@ -37,4 +40,8 @@
     font-weight: 400;
     font-family: "Josefin Sans", Arial, sans-serif;
     text-transform: uppercase;
+}
+.appointment-form input, textarea{
+    outline: none;
+    border: none;
 }

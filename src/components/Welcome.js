@@ -1,21 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import welcomebg from './assets/images/bg_2.jpg';
-import './assets/css/welcome.css';
-function welcome() {
-    return (
-        <div id="welcome" className="sec-pad welcome" style={ {backgroundImage: `url(${welcomebg})` }}>
-            <div className="wrapper we-text-center welcome-cover">
-                <div className="welcome-inner">
-                    <h2>Welcome</h2>
-                    <h1>The Best Coffee Testing Experience</h1>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <div className="welcome-btn">
-                        <a href="home.html" className="btn1">Order Now</a>
-                        <a href="home.html" className="btn2">View Menu</a>
+import Button from '../components/Button';
+import './assets/css/Welcome.css';
+class Welcome extends Component {
+    render() {
+        return(
+            <div id="welcome" className="sec-pad welcome" style={ {backgroundImage: `url(${welcomebg})` }}>
+                <div className="wrapper we-text-center welcome-cover">
+                    <div className="welcome-inner">
+                        <h2>{this.props.subtitle}</h2>
+                        <h1>{this.props.title}</h1>
+                        <p>{this.props.content}</p>
+                        <div className="welcome-btn">
+                            <Button buttonStyle='btn-fill' buttonSize='btn-large'>{this.props.btn1}</Button>
+                            <Button buttonStyle='btn-clean' buttonSize='btn-large'>{this.props.btn2}</Button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
-export default welcome;
+export default Welcome;

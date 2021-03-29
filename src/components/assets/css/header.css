@@ -15,14 +15,11 @@
 .menu-ul li a:hover{
     color: #c49b63;
 }
-.cart:after {
-content: ' \00A7';
-}
 h1 {
     font-size: 5rem;
 }
 header {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
     left: 0;

@@ -47,39 +47,3 @@
     font-weight: 300;
     color: white;
 }
-.welcome-cover .welcome-inner .btn1{
-    margin: 2px;
-    padding: 1rem 1.5rem;
-    font-size: .9rem;
-    font-weight: 400;
-    font-family: "Josefin Sans", Arial, sans-serif;
-    color: #000000;
-    background-color: #c49b63;
-    border: 1px solid transparent;
-    border-radius: 0;
-    transition: .5s;
-
-}
-.welcome-cover .welcome-inner .btn1:hover{
-    color: #c49b63;
-    background-color: transparent;
-    border-color: #c49b63;
-}
-.welcome-cover .welcome-inner .btn2{
-    margin: 2px;
-    padding: 1rem 1.5rem;
-    font-size: .9rem;
-    font-weight: 400;
-    font-family: "Josefin Sans", Arial, sans-serif;
-    color: #ffffff;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 0;
-    transition: .5s;
-
-}
-.welcome-cover .welcome-inner .btn2:hover{
-    color: #000000;
-    background-color: #c49b63;
-    border-color: #c49b63;
-}
